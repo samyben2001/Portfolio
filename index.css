@@ -42,6 +42,10 @@ h2, h3{
     margin-top: 0;
 }
 
+a {
+    color:var(--color1)
+}
+
 #cover{
     background: url(img/cover_overlay.png) no-repeat center/100% 100%,url(img/cover2_red.jpg) no-repeat center/cover;
     display: flex;
@@ -213,10 +217,6 @@ h2, h3{
     margin: 0;
     max-width: 80px;
     height: auto;
-}
-
-#frame a {
-    color:var(--color1)
 }
 
 /* PORTFOLIO */
