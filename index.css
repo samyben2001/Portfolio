@@ -108,6 +108,10 @@ h2, h3{
     padding-bottom: 30px;
 }
 
+.vPaddingSections h2{
+    color: var(--color1)
+}
+
 .vPaddingSections:last-of-type{
     padding-bottom: 50px;
     padding-top: 50px;
