@@ -1,7 +1,8 @@
 /* VARIABLES CSS */
 :root{
-    --color1: #000d83;
+    --color1: #1b268b;
     --color2: #f4f4f4;
+    --color3: #aa2222;
     --h1fontsizeS: 1.3rem;
     --h1fontsizeM: 2rem;
     --h2fontsizeS: 1.1rem;
@@ -25,6 +26,10 @@ iframe{
     padding-bottom: 5px;
     width: 100%;
     height: 375px;
+}
+
+.iframeTitle{
+    color: var(--color3);
 }
 
 h1{  
@@ -112,7 +117,7 @@ h2, h3{
 }
 
 .vPaddingSections h2{
-    color: var(--color1)
+    color: var(--color3)
 }
 
 .vPaddingSections:last-of-type{
